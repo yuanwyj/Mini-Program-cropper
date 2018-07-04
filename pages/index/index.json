@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cropper": "../../component/cropper/cropper"
+  }
+}

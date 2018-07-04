@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='img' mode='widthFix' src="{{ cropperResult }}" wx:if="{{ cropperResult }}"></image>
+  <view class='cropper' wx:if="{{originUrl}}">
+    <cropper bind:getCropperImg="getCropperImg" url="{{ originUrl }}" ratio="{{ ratio }}"></cropper> 
+  </view>
+  <view class='choose-img' wx:else bindtap='uploadTap'>choose Img</view>
+</view>

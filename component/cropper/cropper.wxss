@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.img {
+   position: absolute;
+   top: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+   overflow: hidden;
+   background: #eee;
+}
+.img image {
+  height:400px;
+}
+.imgcrop {
+   position: absolute;
+  left: -50000rpx;
+  top: -500000rpx; 
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 110rpx;
+  color: #fff;
+  background: #000;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer view {
+  width: 30%;
+  text-align: center;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
